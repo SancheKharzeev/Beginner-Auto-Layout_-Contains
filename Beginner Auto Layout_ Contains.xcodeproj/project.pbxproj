@@ -16,6 +16,7 @@
 		E29F694129C737BE00DFFF9E /* Beginner_Auto_Layout__ContainsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29F694029C737BE00DFFF9E /* Beginner_Auto_Layout__ContainsTests.swift */; };
 		E29F694B29C737BE00DFFF9E /* Beginner_Auto_Layout__ContainsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29F694A29C737BE00DFFF9E /* Beginner_Auto_Layout__ContainsUITests.swift */; };
 		E29F694D29C737BE00DFFF9E /* Beginner_Auto_Layout__ContainsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29F694C29C737BE00DFFF9E /* Beginner_Auto_Layout__ContainsUITestsLaunchTests.swift */; };
+		E29F695A29C7383F00DFFF9E /* SAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29F695929C7383F00DFFF9E /* SAButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		E29F694629C737BE00DFFF9E /* Beginner Auto Layout_ ContainsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Beginner Auto Layout_ ContainsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E29F694A29C737BE00DFFF9E /* Beginner_Auto_Layout__ContainsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beginner_Auto_Layout__ContainsUITests.swift; sourceTree = "<group>"; };
 		E29F694C29C737BE00DFFF9E /* Beginner_Auto_Layout__ContainsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beginner_Auto_Layout__ContainsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E29F695929C7383F00DFFF9E /* SAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +101,14 @@
 		E29F692829C737BD00DFFF9E /* Beginner Auto Layout_ Contains */ = {
 			isa = PBXGroup;
 			children = (
-				E29F692929C737BD00DFFF9E /* AppDelegate.swift */,
-				E29F692B29C737BD00DFFF9E /* SceneDelegate.swift */,
+				E29F695929C7383F00DFFF9E /* SAButton.swift */,
 				E29F692D29C737BD00DFFF9E /* ViewController.swift */,
 				E29F692F29C737BD00DFFF9E /* Main.storyboard */,
 				E29F693229C737BE00DFFF9E /* Assets.xcassets */,
 				E29F693429C737BE00DFFF9E /* LaunchScreen.storyboard */,
 				E29F693729C737BE00DFFF9E /* Info.plist */,
+				E29F692B29C737BD00DFFF9E /* SceneDelegate.swift */,
+				E29F692929C737BD00DFFF9E /* AppDelegate.swift */,
 			);
 			path = "Beginner Auto Layout_ Contains";
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E29F692E29C737BD00DFFF9E /* ViewController.swift in Sources */,
+				E29F695A29C7383F00DFFF9E /* SAButton.swift in Sources */,
 				E29F692A29C737BD00DFFF9E /* AppDelegate.swift in Sources */,
 				E29F692C29C737BD00DFFF9E /* SceneDelegate.swift in Sources */,
 			);
